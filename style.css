@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to bottom, darkgray, #191919);
+    height: 98.3vh;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#paralelContainer, #subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas{ 
+    background-color: #191919;
+    border: 1px solid white;
+    
+}
+#bestAproximation, h1, #subTitle {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: arial;
+}
+h1 {
+    font-size: 5rem;
+}
+#bestAproximation{
+    font-size: 3rem;
+}
+#subTitle {
+    color: #191919;
+    font-size: 3rem;
+    font-weight: bold;
+}
+button {
+    border: none;
+    width: 400px;
+    height: 70px;
+    margin: 100px;
+    background: blue;
+    font-size: 2rem;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+    box-shadow: 10rem;
+}
